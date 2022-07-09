@@ -1,0 +1,203 @@
+<html>
+   <head>
+      <style type = "text/css">
+         table.auto {
+            table-layout: auto
+         }
+         table.fixed {
+            table-layout: fixed
+         }
+      </style>
+   </head>
+   
+   <body>
+      <table class = "auto" border = "1" width = "100%">
+         <tr>
+            <td width = "20%">1000000000000000000000000000</td>
+            <td width = "40%">10000000</td>
+            <td width = "40%">100</td>
+         </tr>
+      </table>
+      <br />
+      
+      <table class = "fixed" border = "1" width = "100%">
+         <tr>
+            <td width = "20%">1000000000000000000000000000</td>
+            <td width = "40%">10000000</td>
+            <td width = "40%">100</td>
+         </tr>
+      </table>
+
+   </body>
+</html> 
+<html>
+   <head>
+   </head>
+   
+   <body>
+      <ul style = "list-style-type:circle;">
+         <li>Maths</li>
+         <li>Social Science</li>
+         <li>Physics</li>
+      </ul>
+      
+      <ul style = "list-style-type:square;">
+         <li>Maths</li>
+         <li>Social Science</li>
+         <li>Physics</li>
+      </ul>
+      
+      <ol style = "list-style-type:decimal;">
+         <li>Maths</li>
+         <li>Social Science</li>
+         <li>Physics</li>
+      </ol>
+      
+      <ol style = "list-style-type:lower-alpha;">
+         <li>Maths</li>
+         <li>Social Science</li>
+         <li>Physics</li>
+      </ol>
+      
+      <ol style = "list-style-type:lower-roman;">
+         <li>Maths</li>
+         <li>Social Science</li>
+         <li>Physics</li>
+      </ol>
+   
+   </body>
+</html> 
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         .container {
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 20px;
+         }
+         .ele {
+            background-color: orange;
+            border: 2px solid gray;
+            padding: 25px;
+            font-size: 20px;
+            text-align: center;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Game Board</h1>
+      <div class = "container">
+         <div class = "ele">1</div>
+         <div class = "ele">2</div>
+         <div class = "ele">3</div>
+         <div class = "ele">4</div>
+         <div class = "ele">5</div>
+         <div class = "ele">6</div>
+      </div>
+   </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+body,
+html {
+   height: 100%;
+   margin: 0;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+h1 {
+   font-size: 60px;
+   font-weight: bolder;
+}
+.heroContainer {
+   background-image: linear-gradient( rgba(185, 255, 243, 0.5), rgba(31, 12, 117, 0.5) ),
+   url("https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+   height: 50%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+.heroCaption {
+   text-align: center;
+   position: absolute;
+   top: 20%;
+   left: 45%;
+   color: white;
+}
+.heroCaption button {
+   border: none;
+   outline: none;
+   display: inline-block;
+   padding: 20px;
+   color: rgb(255, 255, 255);
+   opacity: 0.8;
+   font-size: 20px;
+   background-color: rgb(47, 151, 21);
+   text-align: center;
+   cursor: pointer;
+}
+.heroCaption button:hover {
+   opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="heroContainer">
+<div class="heroCaption">
+<h1>I am Shawn</h1>
+<h2>And I'm a Web Developer</h2>
+<button>Contact Me</button>
+</div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body {
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+}
+@media only screen and (max-width: 600px) {
+   body {
+      background: rgb(207, 60, 151);
+   }
+}
+@media only screen and (min-width: 600px) {
+   body {
+      background: rgb(0, 128, 107);
+   }
+}
+@media only screen and (min-width: 768px) {
+   body {
+      background: rgb(226, 136, 18);
+   }
+}
+@media only screen and (min-width: 992px) {
+   body {
+      background: rgb(108, 25, 185);
+   }
+}
+@media only screen and (min-width: 1200px) {
+   body {
+      background: rgb(13, 124, 63);
+   }
+}
+</style>
+</head>
+<body>
+<h1>Media queries example</h1>
+<h2>Resize the screen to see background color change on different breakpoints</h2>
+</body>
+</html>
